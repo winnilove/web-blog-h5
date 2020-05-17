@@ -49,6 +49,6 @@ app.use(function(req,res,next){
   return res.sendFile(path.resolve('build/index.html'))
 })
 app.use("/",express.static(path.resolve('build')))
-server.listen(9093, function() {
-  console.log("ok 9093");
+server.listen(443, function() {
+  console.log("ok 443");
 });

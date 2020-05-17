@@ -48,7 +48,6 @@ ReactDOM.render(
           <Route path="/register" component={Register} />
           <Route path="/detail" component={Detail} />
           <Route path="/list" component={List} />
-        
           <Route component={Login} />
         </Switch>
       </div>
